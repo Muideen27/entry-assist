@@ -6,6 +6,6 @@ export const Counter = () => {
 
     const [count, setCount] = useState(50);
     return (
-        <button onClick={() => setCount(count + 1)}>Clicked {count}</button>
+        <button onClick={() => setCount(count + 1)}>Increament {count}</button>
     )
 };
