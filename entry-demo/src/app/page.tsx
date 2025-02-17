@@ -1,5 +1,5 @@
-import { Counter } from "@/components/counter";
-import { Greet } from "@/components/greet";
+import { Counter } from "@/app/components/counter";
+import { Greet } from "@/app/components/greet";
 import Image from "next/image";
 
 export default function Home() {
