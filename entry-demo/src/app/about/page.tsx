@@ -9,7 +9,7 @@
 // };
 
 // export default About;
-
+// second way to export default a function.
 export default function About() {
     console.log("Welcome to the about page!");
     return(
