@@ -1,3 +1,4 @@
+import { Counter } from "@/components/counter";
 import { Greet } from "@/components/greet";
 import Image from "next/image";
 
@@ -23,6 +24,8 @@ export default function Home() {
           </li>
           <li>Hello World!.</li>
           <Greet />
+          <br />
+          <Counter />
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
