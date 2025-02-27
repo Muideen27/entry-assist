@@ -1,7 +1,5 @@
 // define a sinple data model
 
-import { headers } from "next/headers";
-
 export const users = [
     {
         id: 1,
